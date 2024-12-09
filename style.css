@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+#login-page {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#chat-page {
+    display: flex;
+    height: 100vh;
+}
+
+#room-list {
+    width: 25%;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+#room-list h2 {
+    text-align: center;
+}
+
+#rooms {
+    list-style: none;
+    padding: 0;
+}
+
+#rooms li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#chat-room {
+    width: 75%;
+    padding: 10px;
+}
+
+#messages {
+    height: 80vh;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#message-form input {
+    width: 80%;
+    padding: 10px;
+}
+
+#message-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
